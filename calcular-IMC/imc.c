@@ -17,6 +17,6 @@ main()
 	printf("Digite seu peso:");
 	scanf("%f", &peso);
 	imc = peso/(alt*alt);
-	printf("Seu imc é: %.4f", imc);
+	printf("Seu IMC é: %.4f", imc);
 	
 }
