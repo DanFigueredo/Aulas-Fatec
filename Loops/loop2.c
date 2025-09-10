@@ -1,7 +1,7 @@
 /*
 	Name: loop.cpp 
 	Author: Daniel Figueredo  
-	Date: 09/09/25 11:35
+	Date: 09/09/25 12:06
 	Description: Programa para demonstrar a utilização das estrturas de repetição.
 */
 #include <stdio.h>
@@ -14,14 +14,13 @@ main()
 	
 	puts("Programa para calcular a media! ");
 	
-	do
+	while(cont<5)
 	{
-		printf("Digite o %do numero:", cont
-		+1); //Para aparecer a pos dos numeros 	
+		printf("Digite %do numero:", cont+1);
 		scanf("%d", &num);
 		soma = soma + num;
 		cont++;
-	}while(cont<5); //Faça enquanto
+	}
 	media = (float)soma/cont;
 	printf("A media e: %.2f", media);
 		
