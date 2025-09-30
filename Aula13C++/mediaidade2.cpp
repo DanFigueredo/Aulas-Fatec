@@ -42,7 +42,7 @@ int main()
     
 		
 	printf("A maior idade: %d\n", maior);
-    printf("A maior idade: %d\n", menor);
+    printf("A menor idade: %d\n", menor);
  	media = id1+id2+id3+id4+id5/5;
  	printf("A media e: %.2f", media);
     exit(0); //Sai do terminal
