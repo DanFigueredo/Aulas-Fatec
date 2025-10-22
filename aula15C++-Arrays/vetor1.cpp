@@ -17,10 +17,10 @@ int main(){
     for(i=0;i<tam;i++){
     printf("%d | ", vet[i]);
     }//fim do for mostrador do array
-    puts("\n Os numeros ao contrario");
+    puts("\nOs numeros ao contrario:");
 
     //mostrando o array ao contrario
-    for(i=tam;i>=0;i--){
+    for(i=tam - 1;i>=0;i--){
         printf("%d | ", vet[i]);
     }
 
