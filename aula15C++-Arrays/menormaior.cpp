@@ -3,7 +3,8 @@ Daniel Figueredo
 22/10/2025
 */
 #include <stdio.h>
-int main(){
+int main()
+{
     //Declarar variaveis 
     int vet[8], maior, menor, i, tam;
     maior = menor = i = 0;
@@ -15,25 +16,38 @@ int main(){
     for ( i = 0; i < tam; i++)
     {
         scanf("%d", &vet[i]);
-    }
+    }//Carrega o array
 
     for ( i = 0; i < tam; i++)
     {
         printf("%d |", vet[i]);
-    }
+    }//Mostra o array
+
     //Mostrar o maior
-    for ( i = 0; i < tam; i++) //i recebe 0 e enquanto i for menor que o tamanho, i recebe i + 1
+    maior = vet[0];
+    for ( i = 0; i < tam; i++)
     {
-        maior = maior + vet[i];
+        
         if (vet[i]> maior)
         {
-           vet[i] = maior;
-        }
+           maior = vet[i];
+        }//fim da condição   
+    }//fim que mostra o maior
+    printf("\no maior e: %d", maior);
+
+    //Mostrar o menor 
+    menor = vet[0];
+    for ( i = 0; i < tam; i++)
+    {
+        if (vet[i<menor])
+        {
+            menor = vet[i];
+        }//fim da condição
         
-        printf("%d", maior);
+    }//fim do for que mostra o menor
+    printf("\no menor e: %d", menor);
     
-   
     
-   
+       
 }//fim do programa
 

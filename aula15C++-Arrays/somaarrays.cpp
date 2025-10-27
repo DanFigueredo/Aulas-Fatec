@@ -42,7 +42,7 @@ int main(){
     
      for ( i = 0; i < tam; i++)
     {
-       printf(" %d |", a1[i], a2[i]);
+       printf(" %d |",);
     }
 
     
