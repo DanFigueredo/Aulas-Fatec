@@ -1,6 +1,7 @@
 /*
 Daniel Figueredo
-22/10/2025
+22/10/2025 att em 27/10
+Programa que le um array e mostra qual é o maior e menor numero
 */
 #include <stdio.h>
 int main()
