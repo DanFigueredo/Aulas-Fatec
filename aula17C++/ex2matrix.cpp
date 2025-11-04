@@ -1,9 +1,8 @@
 /*
 	Name: matriz.cpp 
 	Author:Daniel Figueredo
-	Date: 04/11/25 10:52
-	Description: Programa para fazer carga
-				 de uma matriz quadrada de ordem 3 
+	Date: 04/11/25
+	Description: Programa para manipular a matriz com a ordem que o usuario digita
 */
 #include <stdio.h>
 int main()
