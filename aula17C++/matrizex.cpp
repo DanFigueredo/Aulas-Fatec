@@ -16,9 +16,9 @@ int main()
 	int baixods=0;
     int somaall=0;
 	puts("Carregar a matriz\n");
-	for(i=0;i<4;i++)
+	for(i=0;i<ordem;i++)
 	{
-		for(j=0;j<4;j++)
+		for(j=0;j<ordem;j++)
 		{
 			printf("[%d][%d]: ", i,j);
 			scanf("%d", &mat[i][j]);
@@ -27,18 +27,18 @@ int main()
 	puts("\nMatriz Carregada!!");
 	puts("Conteudo da matriz:");
 	
-	for(i=0;i<4;i++)
+	for(i=0;i<ordem;i++)
 	{
-		for(j=0;j<4;j++)
+		for(j=0;j<ordem;j++)
 		{
 			printf("\t%d", mat[i][j]);//t = tabulação
 		}
-	puts("\n");
+	    puts("\n");
 	}
 	puts("\nSoma da DP:");
-	for(i=0;i<4;i++)
+	for(i=0;i<ordem;i++)
 	{
-		for(j=0;j<4;j++)
+		for(j=0;j<ordem;j++)
 		{
 			if(i==j)
 				somadp = somadp + mat[i][j];
@@ -49,31 +49,32 @@ int main()
 	
 	puts("\nSubtracao DP - DS:");
 	
-	for(i=0;i<4;i++)
+	for(i=0;i<ordem;i++)
 	{
-		for(j=0;j<4;j++)
+		for(j=0;j<ordem;j++)
 		{
-			if(i + j == ordem-1)
+			if (i+j == ordem-1)
+			{
 				somads = somads + mat[i][j];
 				sub = somads-somadp;
-				
+			}//fim da condição		
 		}
 	}	
 	printf("A subtracao de DP: %d - DS: %d e: %d\n",somadp, somads, sub);
 	
 	//Achar acima da DP
-	for(i=0;i<4;i++)
+	for(i=0;i<ordem;i++)
 	{
-		for(j=0;j<4;j++)
+		for(j=0;j<ordem;j++)
 		{
 			if(i<j)
-				cimadp = mat[i][j];
+				cimadp += mat[i][j];
 				
 				
 		}
 	}
 	//achar abaixo da DS
-	for(i=0;i<4;i++)
+	for(i=0;i<ordem;i++)
 	{
 		for(j=0;j<4;j++)
 		{
@@ -90,9 +91,9 @@ int main()
     
     //Somar todos os elementos da matriz
     puts("\nA soma de todos os elementos da matriz e: ");
-    for(i=0;i<4;i++)
+    for(i=0;i<ordem;i++)
 	{
-		for(j=0;j<4;j++)
+		for(j=0;j<ordem;j++)
 		{
 			somaall += mat[i][j];
 				
