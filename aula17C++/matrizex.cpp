@@ -2,7 +2,7 @@
 	Name: matrixex.cpp
 	Author:Daniel Figueredo 
 	Date: 04/11/25 11:41
-	Description: 
+	Description: Programa que verifica uma matriz de ordem 4 e faz operações 
 */
 #include<stdio.h>
 int main()
