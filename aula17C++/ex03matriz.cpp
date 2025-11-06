@@ -39,9 +39,4 @@ int main()
         puts("\n");
         
     }
-    
-
-
-    
-
 }//fim do programa
