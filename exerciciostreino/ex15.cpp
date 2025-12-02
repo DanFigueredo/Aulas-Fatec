@@ -23,11 +23,8 @@ int main()
         {
             mat[i][j] = vet[k];
             k++;
-        }
-        
+        }   
    }
-
-
    for ( i = 0; i < 4; i++)
    {
         for ( int j = 0; j < 4; j++)
@@ -36,8 +33,7 @@ int main()
             
         }//interno
        puts("\n");
-   }//externo
-   
+   }//externo  
 }//fim do programa
 
         
