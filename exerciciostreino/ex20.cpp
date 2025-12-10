@@ -30,8 +30,7 @@ int main()
         if (vet[i]%2==0)
         {
            printf("%d | ",vet[i]);
-        }
-        
+        } 
     }
 
     //Mostrar os impares
@@ -41,8 +40,7 @@ int main()
         if (vet[i]%2==1)
         {
            printf("%d | ",vet[i]);
-        }
-        
+        }  
     }
 
     //Media do vetor
@@ -52,6 +50,6 @@ int main()
       soma = soma + vet[i];
       media = soma/8;
     }
-    printf("A media e: %.2f", media);
+    printf("%.2f", media);
    
 }//fim do programa
