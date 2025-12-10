@@ -1,7 +1,7 @@
 /*
 Daniel Figueredo
 09/12/2025 11:21 PM
-Programa que verifica se o numero é par ou impar 
+Programa que verifica se o numero inteiro é par ou impar 
 sem usar o modulo
 */
 #include <stdio.h>
