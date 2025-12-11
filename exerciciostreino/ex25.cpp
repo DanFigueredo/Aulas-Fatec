@@ -1,7 +1,7 @@
 /*
 Daniel Figueredo
 11/12/2025 12:44 AM
-Programa que le 15 numeros inteiros e diga quantos são pares e impares
+Programa que le um vetor de 15 numeros inteiros e diga quantos são pares e impares
 */
 #include <stdio.h>
 int main(){
@@ -45,11 +45,7 @@ int main(){
     printf("Quantos sao pares: %d",par);
     printf("\nQuantos sao impares: %d",impar);
     printf("\nSoma total: %d",soma);
-    printf("\nMedia dos pares: %.2f",mediaPar);
-
-    
-    
-    
-
+    printf("\nMedia dos pares: %.2f",mediaPar);   
 
 }//fim do programa
+
