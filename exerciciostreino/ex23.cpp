@@ -10,7 +10,7 @@ int main()
     int vet[16];
     int i,j,k=0;
     //carregar o vetor
-    for ( i = 0; i < 16; i++)
+    for ( i = 0; i < 16; i++);
     {
         printf("Digite um numero: "); scanf("%d",&vet[i]);
 
@@ -30,8 +30,7 @@ int main()
         {
             mat[i][j] = vet[k];
             k++;
-        }
-        
+        }   
     }
     puts("\n------------>Essa e a matriz:<------------");
     //Mostrar a matriz
