@@ -18,7 +18,7 @@ int main(){
     int mulheres = 0;
     int mulheresAcima = 0;
 
-    while (i<5)
+    while (i<50)
     {
         printf("Digite seu sexo (M/F): "); scanf(" %c",&sexo[i]);
         printf("Digite sua altura: "); scanf("%f",&altura[i]);
