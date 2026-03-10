@@ -2,7 +2,7 @@
 	Name: EnderecoVetor.cpp 
 	Author: Daniel Figueredo
 	Date: 09/03/26 11:35
-	Description: Manipula��o de valores em memoria com vetores
+	Description: Manipulação de valores em memoria com vetores
 */
 #include <stdio.h>
 
@@ -26,5 +26,5 @@ int main(){
 	printf("\nTamanho de um double: %d \n",sizeof(double));
 	for(i=0;i<10;i++){
 		printf("\n%p",&vet[i]);
-	}//fim do la�o
+	}//fim do laço
 }
