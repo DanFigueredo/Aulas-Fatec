@@ -3,10 +3,10 @@
 	Author:Danie Figueredo 
 	Date: 09/03/26 10:17
 	Description: Programa para trocar o valor
-	 entre duas variaveis utilizando uma fun��o
+	 entre duas variaveis utilizando uma função
 */
 #include<stdio.h>
-//sec�o de prototipa��o
+//secão de prototipação
 void trocar(int,int);
 int a,b=0;
 
@@ -22,8 +22,8 @@ int main(){
 	printf("\nB:%d",b);
 }
 
-//fun��o pra trocar os valores entre duas variaveis
-void trocar(int a, int b) //Fun��o que n�o retorna(VOID)
+//função pra trocar os valores entre duas variaveis
+void trocar(int a, int b) //Função que não retorna algo(VOID)
 {
 	int aux=0;
 	aux = a;
