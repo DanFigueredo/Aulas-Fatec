@@ -1,7 +1,7 @@
 /*
 Daniel Figueredo
 14/02/2026
-Programa
+Programa que faz uma leitura de vetor e exibição de valores e endereços usando ponteiros em C
 */
 #include <stdio.h>
 
