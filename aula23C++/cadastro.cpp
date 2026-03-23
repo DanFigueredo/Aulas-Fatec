@@ -5,7 +5,7 @@
 	Description: Fazer o cadastro de uma pessoa emitindo 
 				 beeps ao final de cada entrada
 */
-//importação
+//importaÃ§Ã£o
 #include <windows.h>
 #include<conio.h>
 #include<stdio.h>
