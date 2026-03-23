@@ -23,7 +23,7 @@ int main()
 	
 }//fim do programa
 
-//fun��o
+//função
 void imprimirmatriz(int m[][3])
 {
 	int i,j = 0;
