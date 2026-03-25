@@ -19,17 +19,17 @@ int main()
     int vet [9];
     int i =0;
     int tam = sizeof(vet)/sizeof(int);
+
     for ( i = 0; i < tam; i++)
     {
         printf("Digite os numeros do vetor: ");
         scanf("%d",&vet[i]);
     }//fim do for
-    int mat[3][3];
-   converter(vet,mat);
-   imprimirmat(mat);
-   somardiagonais(mat);
 
-    
+    int mat[3][3];
+    converter(vet,mat);
+    imprimirmat(mat);
+    somardiagonais(mat);
 
 }//fim do programa
 
@@ -44,8 +44,8 @@ void converter (int* vet, int mat[][3])
         {
             mat[i][j]= *(vet+k);
             k++;
-        }  
-    }
+        } //fim do laço interno
+    }//fim do laço externo
     
 }//fim da função
 
@@ -57,10 +57,10 @@ void imprimirmat(int mat[3][3])
         for ( j = 0; j < 3; j++)
         {
             printf("%d\t",mat[i][j]);
-        }
+        }//fim do laço interno
         puts("\n");
         
-    }
+    }//fim do laço externo
     
 }//fim da função
 
@@ -76,11 +76,12 @@ void somardiagonais(int mat[3][3])
             if (i ==j)
             {
                 somadp = somadp + mat[i][j];
-            }
+            }//fim da condição
             
-        }
-        
-    }
+        }//fim do laço interno
+
+    }//fim do laço externo
+
     for ( i = 0; i < 3; i++)
     {
         for ( j = 0; j < 3; j++)
@@ -88,15 +89,16 @@ void somardiagonais(int mat[3][3])
             if (i + j == 2)
             {
                 somads = somads+ mat[i][j];
-            }
-            
-        }
-        
-    }
+            }//fim da condição 
+
+        }//fim do laço interno
+
+    }//fim do laço externo
+
+    //Mostrar os resultados
+
     printf("Soma diagonal principal: %d",somadp);
-    printf("\nSoma diagonal principal: %d",somads);
+    printf("\nSoma diagonal secundaria: %d",somads);
 
-    
-
-}
+}//fim da função
 
