@@ -7,7 +7,7 @@ Programa que carrega um vetor e o transforma em matriz apenas com funções
 //importação:
 #include <stdio.h>
 
-//prototipação:
+//prototipação:¢
 void carregarVetor();
 void carregarMatriz(int vet[]);
 void imprimirVetor(int vet[]);
@@ -72,7 +72,7 @@ void imprimirMatriz(int mat[][4])
     {
         for ( int j = 0; j < 4; j++)
         {
-            printf("\,[%d\t]",mat[i][j]);
+            printf("\n[%d\t]",mat[i][j]);
         }
         puts("\n");
         
