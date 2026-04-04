@@ -17,7 +17,7 @@ void contagemR (int *n)
 {
     
     for (int i = *n; i >=*n * -1; i--)
-        {
-            printf(" %d ",i);    
-        }//fim do loop
+    {
+        printf(" %d ",i);    
+    }//fim do loop
 }
