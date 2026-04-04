@@ -1,6 +1,15 @@
 /*
 Daniel Figueredo
 2/04/2026
+Programa que recebe um número inteiro, passe para uma
+função e que faça a seguinte verificação:
+a. Se o número é positivo, senão exibe uma mensagem solicitando
+um novo número ao usuário e fica em loop.
+b. O número sendo válido, exibir uma contagem regressiva com o
+seu equivalente negativo, ou seja, caso seja digitado o valor 3,
+exibir: 3, 2, 1, 0, -1, -2, -3.
+c. O programa deve finalizar quando o usuário der entrada com o
+número 0 (zero)
 */
 
 //importação 
