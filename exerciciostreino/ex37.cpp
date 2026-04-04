@@ -12,10 +12,10 @@ c. O programa deve finalizar quando o usuário der entrada com o
 número 0 (zero)
 */
 
-//importação 
+//importação:
 #include <stdio.h>
 
-//prototipção
+//prototipção:
 void verificarNum(int *n);
 
 int main()
@@ -33,15 +33,16 @@ int main()
 void verificarNum(int *n){
     while (1)
     {
+        //condição para que se o numero for = a 0 o programa encerre
         if (*n == 0)
         {
             printf("Programa encerrado");
             break;
-        }else if (*n < 0)
+        }else if (*n < 0)//se o numero for menor que 0 o programa solicita outro numero
         {
             printf("Digite um numero valido!!!!!");
         }else{
-            for (int  i = *n; i >= *n * -1; i--)
+            for (int  i = *n; i >= *n * -1; i--)//laço para imprimir o numero até o seu equivalente negativo
             {
                 printf(" %d| ",i);
             }
