@@ -40,7 +40,7 @@ void verificarNum(int n)
         {
            printf("%d | ", i);
         }
-        printf("Difite um numero inteiro e postivio: ");
+        printf("Digite um numero inteiro e postivio: ");
         scanf("%d",&n);
         
        }
