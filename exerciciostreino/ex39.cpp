@@ -35,11 +35,11 @@ void fibonacci(int n)
     vet[0] = 0;
     vet[1] = 1;
     int i;
-    for (i = 2; i < n ; i++)
+    for (i = 2; i < n ; i++)//i = 2 porque as duas primeiras posições ja estão setadas (0,1)
     {
-        vet[i] = vet[i - 1] + vet[i - 2];
+        vet[i] = vet[i - 1] + vet[i - 2]; // pega o ultimo e o penultimo numero e soma 
     }
-    imprimirF(n, vet);
+    imprimirF(n, vet); //invoke função de imprimir o vetor
 
 
 }//fim da função
@@ -53,6 +53,6 @@ void imprimirF(int n, int vet[])
         printf("%d | ", vet[i]);
     }
     
-}
+}//fim da função
 
 
