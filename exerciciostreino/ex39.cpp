@@ -12,38 +12,47 @@ que fará a impressão de todos os elementos.
 #include <stdio.h>
 
 //prototipação
-void fibonacci(int *n);
-//programa
+void fibonacci(int n);
+void imprimirF(int n, int vet[]);
 
+//programa
 int main()
 {
     int num = 0;
     //Pedir um numero
     printf("Diigte um numero inteiro e postivo: ");
     scanf("%d",&num);
-    fibonacci(&num);
+    fibonacci(num);
+    
 
 }//fim do programa
 
 //funções
-void fibonacci(int *n)
+void fibonacci(int n)
 {
 
-    int vet [*n];
+    int vet [n];
     vet[0] = 0;
+    vet[1] = 1;
     int i;
-    for (i = 2; i < *n ; i++)
+    for (i = 2; i < n ; i++)
     {
-        vet[i] = vet[(*n)-1] + vet[(*n)-2];
+        vet[i] = vet[i - 1] + vet[i - 2];
     }
+    imprimirF(n, vet);
 
-    // ---- //
-
-    for ( i = 0; i < *n; i++)
-    {
-        printf("%d | ",vet[i]);
-    }
 
 }//fim da função
+
+void imprimirF(int n, int vet[])
+{
+    int i = 0;
+    
+    for ( i = 0; i < n; i++)
+    {
+        printf("%d | ", vet[i]);
+    }
+    
+}
 
 
