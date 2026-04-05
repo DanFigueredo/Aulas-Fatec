@@ -87,17 +87,3 @@ void mostrarIMC(float imc, char s)
     }
     
 }//fim da função 
-
-
-
-/*
-Tabela de Classificação IMC (OMS) - Adultos
-
-    Abaixo do Peso: IMC menor que 18,5
-    Peso Normal (Eutrófico): IMC entre 18,5 e 24,9
-    Sobrepeso (Pré-obesidade): IMC entre 25,0 e 29,9
-    Obesidade Grau I: IMC entre 30,0 e 34,9
-    Obesidade Grau II (Moderada): IMC entre 35,0 e 39,9
-    Obesidade Grau III (Grave/Mórbida): IMC maior que 40,0 
-
-*/

@@ -21,7 +21,7 @@ int main()
     verificarNum(num);
 
 
-}
+}//fim da função
 
 void verificarNum(int n)
 {
@@ -49,6 +49,6 @@ void verificarNum(int n)
        
     }
     
-}
+}//fim da função
 
 
