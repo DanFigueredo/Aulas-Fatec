@@ -1,6 +1,5 @@
 /*
-	Name: teste.cpp
-	Copyright: 
+	Name: MatrizMagica.cpp
 	Author: Daniel Figueredo
 	Date: 06/04/26 11:51
 	Description: Programa que le e imprime uma matriz por meio de
@@ -78,7 +77,7 @@ void verificarMat(int m[][3])
     //diagonal secundaria
     for ( i = 0; i < 3; i++)
     {
-       somads = somads + m[i][3-1-i];
+       somads = somads + m[i][3-1-j];
     }
 
     // Define alvo pela primeira linha
@@ -94,11 +93,11 @@ void verificarMat(int m[][3])
     for (j = 0; j < 3; j++) 
     {
         somaLinha  += m[i][j]; // percorre linha i
-        somaColuna += m[j][i]; // percorre coluna i       //123 312 231
+        somaColuna += m[j][i]; // percorre coluna i 
           
     }
 
-    if (somadp != somads || soma != somaLinha || soma != somaColuna)
+    if (somadp != soma || somads != soma || soma != somaLinha || soma != somaColuna)
         flag = 0;
     }
  
@@ -107,6 +106,6 @@ void verificarMat(int m[][3])
     {
         puts("E magico");
     }else   
-        puts("nao e magico");;
+        puts("nao e magico");
        		
 }//fim da função
