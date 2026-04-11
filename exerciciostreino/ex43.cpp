@@ -96,9 +96,9 @@ void carregarVet(int l,int c,int m[][100])
         {
             vet[k] = m[i][j];
             k++;
-        }
+        }//interno
         
-    }
+    }//externo
 
     //invoke pra mostrar o vetor
     mostrarVet(vet,k);
@@ -113,5 +113,5 @@ void mostrarVet(int *v,int t)
         printf("%d | ",v[i]);
     }
     
-}
+}//fim da função que mostra o vetor
 
