@@ -1,11 +1,4 @@
-/*
-Segunda Lista – P2
-1) Escreva um programa que faça a carga em uma matriz com a quantidade de linhas e
-colunas definida pelo usuário. A carga deve ser feita por meio de uma função. Após
-a carga, os elementos da matriz deverá ser passado para um vetor, em uma nova
-função. Ao final, tanto o vetor quanto a matriz devem sem impressos cada um por
-uma função.
-*/
+////Exercicio 1 - Lista 2
 
 /*
 Daniel Figueredo 
