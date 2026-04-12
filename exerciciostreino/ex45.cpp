@@ -62,8 +62,17 @@ void merge(char *Va, char *Vb)
     
     for (int i = 0;i< tam; i++)
     {
-        stringC[k] = (i < strlen(Va)) ? Va[i] : ' ';
-        stringC[k+1] = (i < strlen(Vb)) ? Vb[i] : ' '; 
+        if(i<strlen(Va))
+        {
+            stringC[k] = Va[i];
+        }else
+            stringC[k] = ' ';
+         if(i<strlen(Vb))
+        {
+            stringC[k+1] = Vb[i];
+        }else
+            stringC[k+1] = ' ';
+
         k = k+2;
     }
     stringC[k] = '\0';
