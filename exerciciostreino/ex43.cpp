@@ -1,4 +1,4 @@
-////Exercicio 1 - Lista 2
+//Exercicio 1 - Lista 2
 
 /*
 Daniel Figueredo 
