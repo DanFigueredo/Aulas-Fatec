@@ -46,11 +46,11 @@ void carregarTemp()
 void mostrarMedia(float *V,int tam)
 {
     int i = 0;
-    int soma = 0;
+    float soma = 0;
     float media = 0.0;
     for ( i = 0; i < tam; i++)
     {
-        soma = soma + V[i];
+        soma = (float)soma + V[i];
     }
     media = (float)soma/tam;
     
@@ -85,7 +85,7 @@ void maiorEmenor(float *V,int tam)
            
     }
     printf("\nA maior temperatura e: %.2f ",maior);
-    printf("\nA maior temperatura e: %.2f ",menor);
+    printf("\nA menor temperatura e: %.2f ",menor);
 
     //invoke:
     verificarAlertas(V,tam);
@@ -107,4 +107,4 @@ void verificarAlertas(float *V,int tam)
     }
     printf("\nNessas temperatura ocorreram %d alertas de superaquecimento!",alertas);
     
-}
+}//fim da função
