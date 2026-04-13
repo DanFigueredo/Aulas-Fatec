@@ -1,7 +1,8 @@
 /*
 Daniel Figueredo
 13/02/2026
-Programa
+Programa que pede ao usuario quantos anos, meses, dias 
+ele tem e por meio de uma função retorna quantos dias ele tem.
 */
 
 //importação:
@@ -16,7 +17,7 @@ int main()
     anos = meses = dias = 0;
     printf("Anos: "); scanf("%d",&anos);
     printf("\nMeses: "); scanf("%d",&meses);
-    printf("\Dias: "); scanf("%d",&dias);
+    printf("\nDias: "); scanf("%d",&dias);
     //invoke
     somaI(anos,meses,dias);
 }
