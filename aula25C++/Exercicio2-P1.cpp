@@ -6,7 +6,7 @@
 */
 
 #include<stdio.h>
-//prototipação
+//prototipaÃ§Ã£o
 float calcularPesoIdeal(char, float);
 void compararPesos(float, float);
 
@@ -44,12 +44,13 @@ float calcularPesoIdeal(char s, float alt)
 void compararPesos(float pesoI, float seuP)
 {
 	float dif = 0.0;
-	dif = seuP - pesoI;
 	if(seuP > pesoI)
 	{
+		dif = seuP - pesoI;
 		printf("Voce esta acima do seu peso ideal com a diferenca de: %.3fKg",dif);
 	}else if(seuP < pesoI)
 	{
+		dif = pesoI - seuP;
 		printf("Voce esta abaixo do seu peso ideal com a diferenca de: %.3fKg",dif);	
 	}
 	
