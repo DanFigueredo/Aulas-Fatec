@@ -15,7 +15,7 @@ void imprimirString(char *);
 
 int main()
 {
-    char string[];
+    char string[100];
     printf("Digite a string: ");
     gets(string);
     imprimirString(string);
