@@ -2,11 +2,11 @@
 	Name: Exercicio3-P1.cpp
 	Author: Daniel Figueredo
 	Date: 27/04/26 10:26
-	Description: 
+	Description: Programa que verifica se é possivel ser feito
+	um triangulo e verifica suas caracteristicas
 */
 
 #include <stdio.h>
-#include<windows.h>
 
 float verificarTriangulo(float, float,float);
 void verificarTipo(float, float, float);
