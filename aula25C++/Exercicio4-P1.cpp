@@ -2,7 +2,8 @@
 	Name: Exercicio4-P1.cpp 
 	Author: Daniel Figueredo
 	Date: 27/04/26 11:42
-	Description: 
+	Description: Programa que imprimi uma string ao contrario com condições
+	por meio de funções
 */
 
 #include <stdio.h>
