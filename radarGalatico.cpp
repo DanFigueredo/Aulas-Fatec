@@ -4,7 +4,6 @@
 int main()
 {
     int n =0;
-    printf("nuemro de vezes: ");
     scanf("%d",&n);
     int nums =0;
     int vezes =0;
@@ -12,15 +11,15 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        printf("Digite os numeros: ");
         scanf("%d", &nums);
         if (i==0)
         {
             menor = nums;
         }
-        if (nums < menor)
+        if (nums < menor )
         {
             menor = nums;
+            vezes = 1;
             
         }else if(nums == menor){
             vezes++;
