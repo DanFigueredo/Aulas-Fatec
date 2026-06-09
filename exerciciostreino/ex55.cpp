@@ -11,10 +11,10 @@ int main(){
 }
 
 void printer(int num){
-    if(num <= 0){
+    if(num < 0){
         return;
     }
     printer(num - 1 );
-    printf("%d",num);
+    printf("%d ",num);
     
 }
