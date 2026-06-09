@@ -8,7 +8,7 @@ int main(){
     {
         int S =0;
         int L =0;
-        for (int i = 0; i <= n; i++)
+        for (int i = 1; i <= n; i++)
         {
             S += pow(i,3);
             L = sqrt(S);
