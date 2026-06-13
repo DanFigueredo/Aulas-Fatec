@@ -16,6 +16,5 @@ int printer(int num){
     
     return num * printer(num -1);
      
-    
 }
 
