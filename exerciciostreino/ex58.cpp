@@ -4,8 +4,7 @@ int mult(int , int );
 
 int main(){
 
-    int a = 0;
-    int b = 0;
+    
     printf("%d" ,mult(4,3));
 
 
