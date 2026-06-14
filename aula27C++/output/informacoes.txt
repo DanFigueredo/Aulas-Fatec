@@ -1,0 +1,18 @@
+Pessoas Analisadas: 
+Nome: Daniel
+Altura: 1.80
+Peso: 88.00
+IMC: 27.16
+Classificacao: Sobrepeso
+
+Nome: Alef
+Altura: 1.90
+Peso: 70.00
+IMC: 19.39
+Classificacao: Normal
+
+Nome: Luiz
+Altura: 1.80
+Peso: 44.00
+IMC: 13.58
+Classificacao: Abaixo do peso

@@ -21,7 +21,7 @@ int main()
 }
 void imprimiPar(int n){
  	if(n < 0){
-		exit (0);
+		return;
 	}
 	if(n % 2 ==0){
 		printf("%d ",n); 
