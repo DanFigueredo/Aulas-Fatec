@@ -15,7 +15,7 @@ int main(){
 int soma(int num){
     if(num ==0){
         return 0;
-        fatorial(num);
+        
     }
 
     return num + soma(num-1);
