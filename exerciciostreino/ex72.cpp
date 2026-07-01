@@ -1,4 +1,5 @@
 /*
+Pergunta 3
 Daniel Figueredo
 01/07/2026
 Programa que le um vetor de 10 posições e mostre dados
@@ -71,5 +72,4 @@ int main()
     printf("\nQuantidade de numeros pares: %d", pares);
     printf("\nQuantidade de numeros impares: %d", impares);
  
-    
 }
